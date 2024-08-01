@@ -11,3 +11,11 @@ def compute(expression):
     else:
         print('unknown operator!')
         return None
+
+# git add .  or files
+# git commit -am "message"
+# git status
+# git diff
+# git checkout -b newbranch
+# git merge 
+# git branch
