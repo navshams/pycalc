@@ -1,10 +1,5 @@
 def compute(expression):
-    # 2 + 32
-    values = expression.split(' ')
-    # -> 2,+,32
-    num0 = int(values[0]) #2
-    operator = values[1]  #+
-    num1 = int(values[2]) #34
+    num0, operator, num1 = expression.split(' ')
     if operator == '+':
         return num0 + num1
     elif operator == '-':
